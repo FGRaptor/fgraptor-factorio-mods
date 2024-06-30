@@ -1,0 +1,232 @@
+/*  */
+/* Root replacements, mostly color  */
+/*  */
+:root {
+	--md-primary-fg-color: #333333;
+	--md-primary-fg-color--light: red;
+	--md-primary-fg-color--dark: red;
+	--md-primary-bg-color: #e69105;
+	--md-primary-bg-color--light: #ffe6c0;
+	--md-accent-fg-color: #e69105;
+	--md-accent-fg-color--transparent: #595959;
+	--md-accent-bg-color: #e69105;
+	--md-accent-bg-color--light: red;
+	--md-hue: 100deg;
+	--md-default-fg-color: #c1c1c1;
+	--md-default-fg-color--light: #ffe6c0;
+	--md-default-fg-color--lighter: #333333;
+	--md-default-fg-color--lightest: #333333;
+	--md-default-bg-color: #2a2a2a;
+	--md-default-bg-color--light: red;
+	--md-default-bg-color--lighter: red;
+	--md-default-bg-color--lightest: red;
+	--md-code-fg-color: red;
+	--md-code-bg-color: red;
+	--md-code-hl-color: red;
+	--md-code-hl-color--light: red;
+	--md-code-hl-number-color: red;
+	--md-code-hl-special-color: red;
+	--md-code-hl-function-color: red;
+	--md-code-hl-constant-color: red;
+	--md-code-hl-keyword-color: red;
+	--md-code-hl-string-color: red;
+	--md-code-hl-name-color: red;
+	--md-code-hl-operator-color: red;
+	--md-code-hl-punctuation-color: red;
+	--md-code-hl-comment-color: red;
+	--md-code-hl-generic-color: red;
+	--md-code-hl-variable-color: red;
+	--md-typeset-color: #c1c1c1;
+	--md-typeset-a-color: #e69105;
+	--md-typeset-del-color: red;
+	--md-typeset-ins-color: red;
+	--md-typeset-kbd-color: red;
+	--md-typeset-kbd-accent-color: red;
+	--md-typeset-kbd-border-color: red;
+	--md-typeset-mark-color: red;
+	--md-typeset-table-color: red;
+	--md-typeset-table-color--light: red;
+	--md-admonition-fg-color: #c1c1c1;
+	--md-admonition-bg-color: #242324;
+	--md-warning-fg-color: red;
+	--md-warning-bg-color: red;
+	--md-footer-fg-color: #e69105;
+	--md-footer-fg-color--light: #e69105;
+	--md-footer-fg-color--lighter: #c1c1c1;
+	--md-footer-bg-color: red;
+	--md-footer-bg-color--dark: #2a2a2a;
+}
+
+
+
+/*  */
+/* page width */
+/*  */
+.md-grid {
+  max-width: 100%; /* or 100%, if you want to stretch to full-width */
+}
+
+/*  */
+/* content background */
+/*  */
+.md-content {
+	background-color: #333333;
+	border: 1px solid #141414;
+	box-shadow: 0 0.2rem 0.5rem #0000001a,0 0 0.05rem #00000040;
+}
+
+/*  */
+/* grids */
+/*  */
+.md-typeset .grid.cards > ul > li {
+	border: 2px solid #141414;
+	box-shadow: 0 0.2rem 0.5rem #0000001a,0 0 0.05rem #00000040;
+}
+
+.md-typeset .grid.cards > ul > li:hover {
+	border: 2px solid #141414;
+	box-shadow: 0 0.2rem 0.5rem #0000001a,0 0 0.05rem #00000040;
+}
+
+/*  */
+/* grids */
+/*  */
+.md-typeset .inline {
+	width: 20%;
+}
+
+/*  */
+/* tables */
+/*  */
+.md-typeset table:not([class]) {
+	background-color: #424242;
+	border: 1px solid #5e5e5e;
+	border-radius: 0;
+	border-collapse: collapse;
+}
+
+.md-typeset table:not([class]) th {
+	border: 1px solid #818181;
+}
+
+.md-typeset table:not([class]) td {
+	border: 1px solid #818181;
+	background-color: #393939;
+}
+
+/*  */
+/* text */
+/*  */
+.md-typeset {
+	font-size: 16px;
+}
+
+
+
+/*  */
+/* Headers */
+/*  */
+.md-typeset h1 {
+	color: #ffe6c0;
+	margin: 0 0 .64em;
+}
+
+.md-typeset h2 {
+	color: #ffe6c0;
+}
+
+.md-typeset h3 {
+	color: #ffe6c0;
+}
+
+.md-typeset h4 {
+	color: #ffe6c0;
+}
+
+.md-typeset h5 {
+	color: #ffe6c0;
+}
+
+.md-typeset h6 {
+	color: #ffe6c0;
+}
+
+/*  */
+/* Ruler */
+/*  */
+.md-typeset hr {
+	height: 0em;
+	border-bottom: 1px solid #a0a7af;
+	margin: 0em;
+}
+
+
+
+/*  */
+/* Links */
+/*  */
+a:link {
+	color: #e69105;
+}
+
+a:visited {
+	color: #e69105;
+}
+
+a:hover {
+	color: #e69105;
+	text-decoration: underline;
+}
+
+a:active {
+	color: #e69105;
+}
+
+/*  */
+/* Buttons */
+/*  */
+.md-typeset .md-button {
+	color: #e69105;
+	background-color: #2a2a2a;
+}
+
+.md-typeset .md-button:hover {
+	color: #e69105;
+	background-color: #595959;
+}
+
+
+
+/*  */
+/* Search results */
+/*  */
+.md-search-result .md-typeset {
+	color: #c1c1c1;
+}
+
+.md-search-result .md-typeset h1 {
+	color: #ffe6c0;
+}
+
+
+
+/*  */
+/* Tags */
+/*  */
+
+.md-typeset .md-tags {
+	background-color: #4c4c4c;
+	border: 1px solid #666666;
+	box-shadow: 0 0.2rem 0.5rem #0000001a,0 0 0.05rem #00000040;
+}
+
+.md-typeset .md-tag {
+	background-color: #4c4c4c;
+	border-radius: 0;
+}
+
+.md-typeset .md-tag[href]:hover {
+	background-color: #4c4c4c;
+}
+
+
